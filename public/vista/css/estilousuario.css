@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../CSS/usu.jpg) no-repeat;
+    opacity: .9;
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+}
+.form .cabecera .titulo legend{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: tomato;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.form{
+    background: rgb(0, 0, 0,.6);
+    width: 98%px;
+    max-width: 600px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 38px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+}
+.form .label{
+    display: block;
+    color:orangered;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+.form .input{
+    background: rgb(0, 0, 0,.5);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid  orange;
+    width: 500px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color:white;
+    font-family: Arial, Helvetica;
+}
+.form .texarea{
+    resize: vertical;
+    max-height: 15opx;
+    min-height: 58px;
+}
+.form .btn{
+    width: 100px;
+    font-family: Arial, Helvetica;
+    outline: none;
+    background: orange;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.form .btn:hover{
+    background: orangered;
+}
+.form .checkbox{
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: orangered;
+}
+.form .checkbox input {
+    position: absolute;
+}

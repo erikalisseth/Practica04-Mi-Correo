@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Insertar</title>
+    <link href="css/estilosesion.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="fondo">
+    <form id="formulario01" class="form" method="POST" action="../controladores/login.php">
+        <div class="cuerpo">
+        <div class="cabecera">
+          <h1 class="titulo"><span>Iniciar Sesion</span></h1>
+    </div>
+       
+    
+       <label  class="label" for="correo">Correo electrónico </label>
+        <input class="input" type="text" id="correo" name="correo" value="" placeholder="Ingrese el correo ..."/>
+     <br>
+        <label class="label" for="nombres">Constraseña (*)</label>
+       <input  class="input"type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su contraseña ..."/>
+     <br>               
+       <input  class="btn" type="submit" id="login" name="login" value="Iniciar Sesión" />&nbsp;
+       <input class="btn" id="borrar" name="borrar" type="Reset" value="Borrar">
+     </div>                    
+        </form> 
+    
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Insertar</title>
+    <link href="css/estilousuario.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+ 
+    <form class="form" action="../controladores/crear_usuario.php" enctype="multipart/form-data" method="POST">
+        <div class="cabecera">
+            <h1 class="titulo"> <legend>Registrese</legend</h1>
+        </div>
+
+        <label id="Cedula"  class="label">Cedula</label>
+        <input type="text" class="input" name="cedula" />
+
+        <br>
+        <label id="nombre" class="label" >Nombre</label>
+        <input class="input"  type="text" name="nombre" />
+        <br>
+        <label id="Apellido" class="label">Apellido</label>
+        <input class="input"  type="text" name="apellido" />
+        <br>
+
+        <label id="Rol" class="label">Cargo</label><br>
+        <label class="checkbox" id="Rol2">(Usuario)</label>
+        <input type="checkbox" name="rol2" value="usuario" />
+        <label class="checkbox" id="Rol3">(Administrador)</label>
+        <input type="checkbox" name="rol3" value="admin" />
+
+        <br>
+        <label id="Direccion" class="label">Direccion</label>
+        <input  class="input"  type="text" name="direccion" />
+        <br>
+        <label id="Telefono" class="label">Telefono</label>
+        <input class="input"  type="text" name="telefono" />
+        <br>
+        <label id="Fecha" class="label">Fecha</label>
+        <input  class="input" type="date" name="fecha" />
+
+
+
+        <label id="Correo" class="label">Correo</label>
+        <input  class="input" type="email" name="correo" value="" />
+
+        <label id="Contrasena" class="label">Contraseña</label>
+        <input  class="input" type="password" name="contrasena" />
+        <br>
+
+        <input type="submit" class="btn" id="crear" name="crear" value="Aceptar" />
+        <input type="reset"  class="btn" id="cancelar" name="cancelar" value="Cancelar" />
+        
+    </form>
+  
+</body>
+
+</html>
